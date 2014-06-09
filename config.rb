@@ -6,10 +6,12 @@
 # First: gem install susy --pre
 # require 'susy'
 
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+
+compass_config do |config|
+  # config.output_style = :compact
+  config.additional_import_paths = ['source/css/lib']
+  config.environment = :development
+end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -80,6 +82,11 @@ configure :build do
 
   # Use relative URLs
   activate :relative_assets
+
+  compass_config do |config|
+    # config.output_style = :compact
+    config.environment = :production
+  end
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
