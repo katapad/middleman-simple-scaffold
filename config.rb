@@ -19,7 +19,9 @@ end
 
 # Slim settings
 # Set slim-lang output style
-Slim::Engine.set_default_options :pretty => true
+# Slim::Engine.set_default_options :pretty => true
+set :slim, { :pretty => true, :sort_attrs => false, :format => :html5 }
+
 # Set Shortcut
 Slim::Engine.set_default_options :shortcut => {
   '#' => {:tag => 'div', :attr => 'id'},
