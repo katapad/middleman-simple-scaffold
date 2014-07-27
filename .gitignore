@@ -18,7 +18,7 @@
 .DS_Store
 
 vendor/bundle
-vendor/bower
+/bower_components
 
 
 #IntteliJ IDEA

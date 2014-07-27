@@ -30,7 +30,11 @@ Slim::Engine.set_default_options :shortcut => {
 }
 
 # bower.js settings
-set :bower_dir, '../vendor/bower'
+ready do
+  sprockets.append_path File.join root.to_s, "bower_components"
+  # sprockets.append_path "#{root}/bower_components"
+end
+
 
 # activate :directory_indexes
 #
