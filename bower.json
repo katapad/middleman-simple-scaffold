@@ -1,17 +1,20 @@
 {
-  "name": "project_name",
+  "name": "front-main",
   "version": "0.0.0",
   "dependencies": {
     "easeljs": "*",
     "createjs-tweenjs": "*",
     "createjs-preloadjs": "*",
-    "dat.gui": "*",
-    "greensock": "*",
-    "lodash": "*",
-    "backbone": "*",
-    "jquery.transit": "*",
-    "d3": "*",
-    "raphael": "*",
-    "jquery": "*"
+    "createjs-soundjs": "*",
+    "lodash": "~3.8.0",
+    "stats.js": "*",
+    "moment": "~2.10.2",
+    "dat.gui": "latest",
+    "velocity": "~1.2.2",
+    "jquery": "2.1.3",
+    "jquery-legacy": "jquery#1.11",
+    "eventemitter2": "~0.4.14",
+    "gsap": "~1.16.1",
+    "threejs": "r71"
   }
 }
