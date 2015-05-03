@@ -4,8 +4,8 @@ title: &title
   'My Site Title'
 description: &description
   'My Site description'
-keywords: &keywords
-  'My Site keywords,keyword'
+keyword: &keyword
+  'My Site keyword,keyword'
 
 twitter:
   lang: 'ja'
