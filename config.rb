@@ -33,8 +33,19 @@ Slim::Engine.set_default_options :shortcut => {
 ready do
   sprockets.append_path File.join root.to_s, "bower_components"
   # sprockets.append_path "#{root}/bower_components"
+
+  # open
+  # url = "http://#{my_address}:4567/"
+  # command = "open -a \"Google Chrome Canary\" #{url}"
+  # puts "url: #{url}"
+  # puts "command: #{command}"
+  #
+  # system command
 end
 
+
+# ignore IDEA Files at LiveReload
+file_watcher_ignore.push /^.idea\//
 
 # activate :directory_indexes
 #
