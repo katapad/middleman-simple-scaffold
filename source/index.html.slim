@@ -4,3 +4,7 @@
     == image_tag "middleman.png", :alt => 'hello middleman-scaffold :)'
   p.doc
     == link_to "Read Online Documentation", "http://middlemanapp.com/"
+
+
+- content_for :scripts do
+  == javascript_include_tag "all"

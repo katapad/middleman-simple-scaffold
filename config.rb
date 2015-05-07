@@ -69,6 +69,10 @@ file_watcher_ignore.push /^.idea\//
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+# MiddlemanのSlimで複数のyieldを使う
+# http://qiita.com/katapad/items/80aed62e688f22dc1e9d
+Slim::Engine.set_default_options :streaming => false
+
 ###
 # Helpers
 ###
